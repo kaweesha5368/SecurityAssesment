@@ -1,0 +1,32 @@
+Feature,Host,Method,URI,InScope,Status,Size,ContentType,Timestamp
+Shopping Cart,http://localhost:3000,POST,/api/BasketItems/,true,200,542,JSON,1789377314636
+Shopping Cart,http://localhost:3000,GET,/rest/basket/1,false,200,17045,JSON,1789377315075
+Shopping Cart,http://localhost:3000,GET,/api/BasketItems/,false,0,0,,0
+Security & Utility,http://localhost:3000,GET,/rest/captcha/,false,200,430,JSON,1789377173283
+Authentication,http://localhost:3000,POST,/rest/user/login,true,200,1182,JSON,1789377299145
+Authentication,http://localhost:3000,GET,/rest/user/login,false,0,0,,0
+Authentication,http://localhost:3000,GET,/rest/user/whoami?fields=email,true,304,304,,1789377304154
+Authentication,http://localhost:3000,GET,"/rest/user/whoami?fields=id,email",true,304,304,,1789377172927
+Authentication,http://localhost:3000,GET,/rest/user/whoami,false,0,0,,0
+Security & Utility,http://localhost:3000,GET,/redirect?to=https://github.com/juice-shop/juice-shop,true,302,467,HTML,1789377267548
+Security & Utility,http://localhost:3000,GET,/redirect,false,0,0,,0
+Gamification,http://localhost:3000,GET,/api/Challenges/?name=Score%20Board,true,304,305,JSON,1789377152668
+Gamification,http://localhost:3000,GET,/api/Challenges/?sort=name,true,304,307,,1789377239827
+Gamification,http://localhost:3000,GET,/api/Challenges/,false,0,0,,0
+Gamification,http://localhost:3000,GET,/api/Hints/,false,304,307,,1789377239796
+Gamification,http://localhost:3000,GET,/score-board,false,304,392,,1789377146384
+Gamification,http://localhost:3000,GET,/rest/continue-code,false,304,304,,1789377257395
+Gamification,http://localhost:3000,GET,/rest/continue-code-findIt,false,304,303,,1789377257764
+Gamification,http://localhost:3000,GET,/rest/continue-code-fixIt,false,304,303,,1789377257755
+Customer Interaction,http://localhost:3000,GET,/api/Feedbacks/,false,304,305,,1789377209756
+Customer Interaction,http://localhost:3000,GET,/rest/memories/,false,304,306,,1789377230938
+Product Catalog,http://localhost:3000,GET,/api/Products/1?d=Mon%20Sep%2014%202026,true,304,305,,1789377314689
+Product Catalog,http://localhost:3000,GET,/api/Products/1,false,0,0,,0
+Product Catalog,http://localhost:3000,GET,/api/Quantitys/,false,304,306,,1789377148523
+Product Catalog,http://localhost:3000,GET,/rest/products/search?q=,true,304,306,,1789377312060
+Product Catalog,http://localhost:3000,GET,/rest/products/search,false,0,0,,0
+Administration,http://localhost:3000,GET,/rest/admin/application-configuration,false,304,306,,1789377147595
+Administration,http://localhost:3000,GET,/rest/admin/application-version,false,304,304,,1789377147547
+System & UI,http://localhost:3000,GET,/,false,304,392,,1789377150931
+System & UI,http://localhost:3000,GET,/rest/languages,false,304,306,,1789377148471
+System & UI,http://localhost:3000,GET,/socket.io/,false,0,0,,0
